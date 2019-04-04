@@ -1,11 +1,13 @@
 ## **0005_portfolio**
 
-### Consigne
+## Consigne :
 Créer un BEAU portfolio comportant :
 * Nom et prénom
 * Description
 * Coordonnées
 * Formulaire de contact
+
+## Structure de la page :
 
 ### Nom :
 BUFERNE
@@ -25,7 +27,7 @@ Isabelle
 * Tél : 06 67 46 23 33
 * Adresse e-mail : isabu77@gmail.com
 
-### Formulaire de contact :
+### Formulaire de contact : 
 * Pour me contacter, remplissez le formulaire ci-dessous :
 * Votre nom et prénom :
 * Votre n° de tél :
@@ -33,3 +35,5 @@ Isabelle
 * Votre message :
 * Bouton 'Envoyer >'
 
+### Exemple : ![Contact][img-contact]
+[img-contact]: asset\img\contact-mail.jpg 
