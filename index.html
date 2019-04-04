@@ -4,8 +4,11 @@
 <head>
   <meta charset='UTF-8' />
   <title>Portfolio</title>
-<!--   <link rel='stylesheet' href='asset\css\style.css' />
- --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel='stylesheet' href='asset\css\style.css' />
+ 
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
 </head>
@@ -19,9 +22,11 @@
 			</div>
 		</header>
 
-		<div class = 'background-image asset\img\clavier.png">
+		<div id='description' class = 'row'>
 			<h2 class='text-center'>Développeur WEB et C/C++</h2>
-			<p>En formation de titre professionnel à l'AFORMAC de Montluçon</p>
+			<p>En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon</p>
+			<p>Ingénieur logiciel C/C++ Windows</p>
+			<p>En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon</p>
 		</div>
 	</section>
 
@@ -29,21 +34,21 @@
 		<div>
 			<div>
 				<form>
-					<h2>N'hésitez pas à me contacter</h2>
-					<div>
-						<label for="nom">Nom</label>
-						<input id="nom" type="text" name="">
+					<h2 id='contact' class='text-center'>Contact</h2>
+					<div class='row'>
+						<label class='col-4' for="nom">Nom</label>
+						<input class='col-6 offset-1' id="nom" type="text" name="">
 					</div>
-					<div>
-						<label for="mail">E-mail</label>
-						<input id="mail"type="text" name="">
+					<div class='row'>
+						<label class='col-4' for="mail">E-mail</label>
+						<input class='col-6 offset-1' id="mail"type="text" name="">
 					</div>
-					<div>
-						<label for="msg">Message</label>
-						<textarea id="msg"></textarea>
+					<div class='row'>
+						<label class='col-4' for="msg">Message</label>
+						<textarea class='col-6 offset-1' id="msg"></textarea>
 					</div>
-					<div class="button">
-        				<button type="submit">Envoyer</button>
+					<div class="button row">
+        				<button class='col-4 offset-8' type="submit">Envoyer</button>
     				</div>				
     			</form>
 			</div>
@@ -51,7 +56,6 @@
 	</section>
 	<footer class='text-center'>
 		<p>isabu77@gmail.com - 06 67 46 23 33</p>
-		<p>Désertines</p>
 	</footer>
 </body>
 
