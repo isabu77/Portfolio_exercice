@@ -15,25 +15,24 @@ BUFERNE
 ### Prénom :
 Isabelle
 
-### Image : ![LOGO][img-monsite]
-[img-monsite]: asset\img\profilabeille.jpg 
+### Vignette image : ![LOGO][img-monsite]
+[img-monsite]: asset\img\arbre.jpg 
 
 ### Description :
-* Développeur Logicicel C/C++
-* En formation de développeur WEB et Web Mobile à l'AFORMAC de Montluçon.
+ * En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon
+ * Ingénieur logiciel C/C++ Windows
+ * Je recherche un poste de développeur logiciel ou Web
 
 ### Coordonnées :
-* Adresse : Rue de la république 03100 Montluçon
-* Tél : 06 67 46 23 33
-* Adresse e-mail : isabu77@gmail.com
+isabu77@gmail.com - 06 67 46 23 33
 
 ### Formulaire de contact : 
 * Pour me contacter, remplissez le formulaire ci-dessous :
 * Votre nom et prénom :
-* Votre n° de tél :
 * Votre adresse e-mail :
-* Votre message :
-* Bouton 'Envoyer >'
+* message :
+* Bouton 'Envoyer'
 
-### Exemple : ![Contact][img-contact]
-[img-contact]: asset\img\contact-mail.jpg 
+## Maquette :
+### Image : ![Maquette][img-maquette]
+[img-maquette]: asset\img\maquette.jpg
