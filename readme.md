@@ -15,8 +15,8 @@ BUFERNE
 ### Prénom :
 Isabelle
 
-### Vignette image : ![LOGO][img-monsite]
-[img-monsite]: asset\img\arbre.jpg 
+### Vignette image : 
+![LOGO](https://github.com/isabu77/0005_portfolio/blob/master/asset/img/arbre.jpg)
 
 ### Description :
  * En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon
@@ -34,5 +34,6 @@ isabu77@gmail.com - 06 67 46 23 33
 * Bouton 'Envoyer'
 
 ## Maquette :
-### Image : ![Maquette][img-maquette]
-[img-maquette]: asset\img\maquettepetite.jpg
+### Image : 
+![Maquette](https://github.com/isabu77/0005_portfolio/blob/master/asset/img/maquettepetite.jpg)
+
