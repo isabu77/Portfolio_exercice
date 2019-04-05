@@ -35,4 +35,4 @@ isabu77@gmail.com - 06 67 46 23 33
 
 ## Maquette :
 ### Image : ![Maquette][img-maquette]
-[img-maquette]: asset\img\maquette.jpg
+[img-maquette]: asset\img\maquettepetite.jpg
