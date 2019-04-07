@@ -8,12 +8,17 @@ body{
   font-family: cursive;
 }
 
-h1{
-  font-size:24px;
+.montitre{
+  font-size:1.4em;
+  margin: auto;
   text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
   color: white;
 }
 
+.masection{
+  padding-right: 5px;
+  padding-left: 5px;
+}
 /* le LOGO en haut à droite */
 #logo{
   width:20%;
