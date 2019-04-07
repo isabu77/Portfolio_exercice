@@ -1,74 +1,102 @@
+header{
+  font-family: cursive;
+}
+
 body{
   /*fond vert*/
   background-color: #5ECD4C;
- //background-color: transparent;
-}
-
-/* formulaire */
-form {
-  /* Uniquement centrer le formulaire sur la page */
-  margin: 0 auto;
- /* Encadré pour voir les limites du formulaire */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-}
-
-form div + div {
-  margin-top: 1em;
-}
-
-label {
-  text-align: right;
-}
-
-input, textarea {
-  /* Pour s'assurer que tous les champs texte ont la même police.
-     Par défaut, les textarea ont une police monospace */
-  font: 1em sans-serif;
- }
-
-input:focus, textarea:focus {
-  /* Pour souligner légèrement les éléments actifs */
-  border-color: #000;
-}
-
-
-#contact{
-  font: 1em sans-serif;
-
-}
-
-#description{
-  margin:2px; 
-  border-radius: 10px;
   font-family: cursive;
-  background-image: linear-gradient(rgba(255, 255, 0,0.6),#5ECD4C);
 }
 
-#h2desc{
-  border-radius: 10px;
-  background-image:linear-gradient(#5ECD4C, rgba(255, 255, 0, 0.5)),url("../img/clavier.png");
-
+h1{
+  font-size:24px;
+  text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+  color: white;
 }
 
-#desc{
-  margin:2px; 
-  border-radius: 10px;
-  text-align:center;
-}
-
-
+/* le LOGO en haut à droite */
 #logo{
   width:20%;
   border-radius:100%;
 }
 
-#titre{
-  font-family: cursive;
+/* DESCRIPTION */
+/* avec fond clavier et dégradé vert */
+
+#description{
+  margin:2px; 
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(255, 255, 0,0.6),#5ECD4C);
+}
+
+/* TITRE DESCRIPTION avec fond clavier et dégradé vert */
+
+#h2desc{
+  border-radius: 10px;
+  background-image:linear-gradient(#5ECD4C, rgba(255, 255, 0, 0.5)),url("../img/clavier.png");
+  text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+  color: white;
+}
+
+#titleh2{
+    text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;color: white;
+
+}
+
+/* ARTICLE : DESCRIPTION */ 
+#pdesc{
+  /*margin:2px; */
+  border-radius: 10px;
+  line-height: 1.2;
 }
 
 footer{
   text-align:center;
   border-radius: 1em;
 }
+
+/* ligne de séparation entre titre Pour me contacter et formulaire */
+.separation {
+    width: 33%;
+    height: 1px;
+    background-color: #00060F;
+    margin-bottom: 0.5em;
+}
+
+
+/* FORMULAIRE dans le footer */
+
+#form {
+    width: 100%;
+    margin: 0 auto 2em auto;
+    padding: 1em 0 0 0;
+    border-bottom: 3px solid #001523;
+    border-radius: 30px;
+}
+
+input, textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: #022D42;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 2em;
+}
+
+textarea {
+    width: 90%;
+    height: 6em;
+}
+
+#submit {
+    bottom: 1em;
+}
+
+
+
+
+
+

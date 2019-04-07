@@ -14,51 +14,48 @@
 </head>
 
 <body>
-	<section class='container-fluid'>
-		<header>
-			<div id="titre" class="row">
-				<h1 class = 'col-6'>Isabelle Buferne</h1>
-				<img class='col-6 h-100' id= "logo" src="asset\img\arbre.jpg" alt="Vignette">
-			</div>
+	<section class='container'>
+		<!-- TITRE : Nom prénom et logo sur la meme ligne -->
+		<header class="row">
+			<h1 class = 'col-8'>Isabelle Buferne</h1>
+			<img class='col-4 h-50' id= "logo" src="asset\img\arbre.jpg" alt="Vignette">
 		</header>
 
+		<!-- Présentation : Texte de description -->
 		<div id='description' class = 'row'>
-			<div id='h2desc'><h2 class='text-center'>Développeur WEB et C/C++</h2></div>
-			<div id='desc'>
-				<p>En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon</p>
-				<p>Ingénieur Logiciel C/C++/Windows</p>
-				<p>Je recherche un poste de développeur logiciel ou Web/Mobile</p>
-			</div>
+			<h2 id='h2desc' class='text-center col-12'>Développeur WEB et C/C++</h2>
+			<article id='pdesc' class='text-center col-12'>
+				<p>Actuellement en formation "Titre Professionnel Développeur Web & Web Mobile" à l'AFORMAC de Montluçon</p>
+				<p>Je recherche un stage de 2 mois en développement Web (09 sept - 15 déc 2019)</p>
+				<p>Mon expérience professionnelle : Développeur logiciel sénior C/C++ sous Windows</p>
+			</article>
 		</div>
 	</section>
 
-	<section class='container-fluid'>
-		<div>
-			<div>
-				<form>
-					<h2 id='contact' class='text-center'>Contact</h2>
-					<div class='row'>
-						<label class='col-4' for="nom">Nom</label>
-						<input class='col-6 offset-1' id="nom" type="text" name="">
-					</div>
-					<div class='row'>
-						<label class='col-4' for="mail">E-mail</label>
-						<input class='col-6 offset-1' id="mail"type="text" name="">
-					</div>
-					<div class='row'>
-						<label class='col-4' for="msg">Message</label>
-						<textarea class='col-6 offset-1' id="msg"></textarea>
-					</div>
-					<div class="button row">
-        				<button class='col-4 offset-8' type="submit">Envoyer</button>
-    				</div>				
-    			</form>
-			</div>
-		</div>
-	</section>
-	<footer class='text-center'>
+	<!-- Formulaire de CONTACT en pied de page -->
+
+    <footer id="foot"> 
+            
+        <h2 id="titleh2">Pour me contacter</h2> <!-- Titre -->
 		<p>isabu77@gmail.com - 06 67 46 23 33</p>
+		<hr class="separation">
+        <div id="form" class='row'> <!-- Formulaire de contact -->
+              <form class="col-12">
+                  <div id="formulaire" >
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Votre nom">
+
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Votre adresse e-mail"><br>
+
+                    <label for="comment"></label><br>                 
+                    <textarea cols="50" rows="5" id="comment" placeholder="Votre message"></textarea>
+                  </div>
+                  <p id="submit"><input type="submit" value="Envoyer" class="button"></p>
+              </form>
+        </div>
 	</footer>
+
 </body>
 
 </html>
