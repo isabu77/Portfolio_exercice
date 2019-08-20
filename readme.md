@@ -5,7 +5,8 @@ Créer un BEAU portfolio comportant :
 * Nom et prénom
 * Description
 * Coordonnées
-* Formulaire de contact
+* lien sur CV html
+* Réalisations front-end
 
 ## Structure de la page :
 
@@ -16,7 +17,7 @@ BUFERNE
 Isabelle
 
 ### Vignette image : 
-![LOGO](https://github.com/isabu77/0005_portfolio/blob/master/asset/img/arbre.jpg)
+![LOGO](asset/img/WordArt.jpg)
 
 ### Description :
  * En formation de TP Développeur Web & Mobile à l'AFORMAC de Montluçon
@@ -27,11 +28,8 @@ Isabelle
 isabu77@gmail.com - 06 67 46 23 33
 
 ### Formulaire de contact : 
-* Pour me contacter, remplissez le formulaire ci-dessous :
-* Votre nom et prénom :
-* Votre adresse e-mail :
-* message :
-* Bouton 'Envoyer'
+* Pour me contacter
+* adresse mail - tél
 
 ## Maquette :
 ### Image : 

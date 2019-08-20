@@ -1,66 +1,89 @@
-header{
-  font-family: cursive;
+header {
+    margin-bottom: 20px;
 }
 
-body{
-  /*fond vert*/
-  background-color: #5ECD4C;
-  font-family: cursive;
+body {
+    /*fond vert*/
+    background-color: rgb(186, 233, 179);
 }
 
-.montitre{
-  font-size:1.4em;
-  margin: auto;
-  text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-  color: white;
+.montitre {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+    color: white;
 }
 
-.masection{
-  padding-right: 5px;
-  padding-left: 5px;
+.masection {
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(240, 241, 240);
+    margin: auto;
 }
+
+
 /* le LOGO en haut à droite */
-#logo{
-  width:20%;
-  border-radius:100%;
+
+#logo {
+    width: 10%;
+    border-radius: 100%;
 }
+
 
 /* DESCRIPTION */
+
+
 /* avec fond clavier et dégradé vert */
 
-#description{
-  margin:2px; 
-  border-radius: 10px;
-  background-image: linear-gradient(rgba(255, 255, 0,0.6),#5ECD4C);
+#description {
+    margin: 2px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(186, 233, 179), rgba(255, 255, 0, 0.5));
 }
+
 
 /* TITRE DESCRIPTION avec fond clavier et dégradé vert */
 
-#h2desc{
-  border-radius: 10px;
-  background-image:linear-gradient(#5ECD4C, rgba(255, 255, 0, 0.5)),url("../img/clavier.png");
-  text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-  color: white;
+#h2desc {
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(186, 233, 179), rgba(255, 255, 0, 0.5)), url("../img/clavier.png");
+    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+    color: white;
 }
 
-#titleh2{
-    text-shadow:1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;color: white;
-
+#titleh2 {
+    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+    color: white;
+    text-align: center;
 }
 
-/* ARTICLE : DESCRIPTION */ 
-#pdesc{
-  /*margin:2px; */
-  border-radius: 10px;
-  line-height: 1.2;
+iframe {
+    width: 40%;
+    height: 40%;
+    margin: auto;
 }
 
-footer{
-  text-align:center;
-  border-radius: 1em;
+#contact {
+    text-align: center;
 }
+
+
+/* ARTICLE : DESCRIPTION */
+
+#pdesc {
+    margin: 2px;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+footer {
+    text-align: center;
+    border-radius: 1em;
+}
+
 
 /* ligne de séparation entre titre Pour me contacter et formulaire */
+
 .separation {
     width: 33%;
     height: 1px;
@@ -76,10 +99,12 @@ footer{
     margin: 0 auto 2em auto;
     padding: 1em 0 0 0;
     border-bottom: 3px solid #001523;
-    border-radius: 30px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-input, textarea {
+input,
+textarea {
     background-color: #ddd;
     border-radius: 5px;
     color: #022D42;
@@ -89,19 +114,15 @@ input, textarea {
 input[type="text"] {
     width: 90%;
     height: 2em;
+    margin-bottom: 0.5em;
 }
 
 textarea {
     width: 90%;
-    height: 6em;
+    height: 10em;
 }
 
 #submit {
     bottom: 1em;
+    text-align: center;
 }
-
-
-
-
-
-
