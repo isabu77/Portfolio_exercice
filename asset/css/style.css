@@ -2,43 +2,30 @@ header {
     margin-bottom: 20px;
 }
 
-body {
-    /*fond vert*/
-    background-color: rgb(186, 233, 179);
-}
-
-.montitre {
-    font-size: 1.4em;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-    color: white;
-}
-
 .masection {
-    width: 60%;
+    width: 100%;
     padding: 10px;
-    background-color: rgb(240, 241, 240);
     margin: auto;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
 
-/* le LOGO en haut à droite */
+ul li {
+    list-style: none;
+}
 
-#logo {
-    width: 10%;
-    border-radius: 100%;
+iframe {
+    height: 300px;
 }
 
 
 /* DESCRIPTION */
 
-
-/* avec fond clavier et dégradé vert */
-
 #description {
     margin: 2px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(186, 233, 179), rgba(255, 255, 0, 0.5));
 }
 
 
@@ -57,14 +44,56 @@ body {
     text-align: center;
 }
 
-iframe {
-    width: 40%;
-    height: 40%;
-    margin: auto;
-}
-
 #contact {
     text-align: center;
+}
+
+
+/* desktop */
+
+@media(min-width:641px) {
+    .montitre {
+        font-size: 2em;
+        margin-bottom: 2px;
+        text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+        color: white;
+        text-align: center;
+    }
+    /* le LOGO en haut à droite */
+    #logo {
+        width: 50%;
+        border-radius: 100%;
+    }
+    .mark {
+        width: 2vw;
+    }
+    .logo {
+        width: 4vw;
+    }
+}
+
+
+/* mobile */
+
+@media(max-width:640px) {
+    .montitre {
+        font-size: 1.5em;
+        margin-bottom: 2px;
+        text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
+        color: white;
+        text-align: center;
+    }
+    /* le LOGO en haut à droite */
+    #logo {
+        width: 100%;
+        border-radius: 100%;
+    }
+    .logo {
+        height: 4vw;
+    }
+    .mark {
+        height: 4vw;
+    }
 }
 
 
@@ -85,44 +114,8 @@ footer {
 /* ligne de séparation entre titre Pour me contacter et formulaire */
 
 .separation {
-    width: 33%;
+    width: 66%;
     height: 1px;
     background-color: #00060F;
     margin-bottom: 0.5em;
-}
-
-
-/* FORMULAIRE dans le footer */
-
-#form {
-    width: 100%;
-    margin: 0 auto 2em auto;
-    padding: 1em 0 0 0;
-    border-bottom: 3px solid #001523;
-    border-radius: 10px;
-    text-align: center;
-}
-
-input,
-textarea {
-    background-color: #ddd;
-    border-radius: 5px;
-    color: #022D42;
-    margin-bottom: 0.5em;
-}
-
-input[type="text"] {
-    width: 90%;
-    height: 2em;
-    margin-bottom: 0.5em;
-}
-
-textarea {
-    width: 90%;
-    height: 10em;
-}
-
-#submit {
-    bottom: 1em;
-    text-align: center;
 }

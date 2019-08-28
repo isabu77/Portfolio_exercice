@@ -11,23 +11,24 @@
 </head>
 
 <body>
-    <section class='container masection'>
+    <section>
         <!-- TITRE : Nom prénom et logo sur la meme ligne -->
-        <header class="row justify-content-center align-items-center">
-            <div class="col-8 column text-center">
-                <h1 class="montitre">Isabelle Buferne</h1>
-                <span><i class="fa fa-envelope"></i> isabu77@gmail.com</span>
-                <br/>
-                <span><i class="fa fa-phone"></i>+33 (0)6 67 46 23 33</span>
-                <br/>
-                <span><a href="https://github.com/isabu77">Github</a></span>
-                <hr class="separation">
+        <header class="row justify-content-space-between align-items-center">
+            <div class="col-4 column text-center">
+                <span><a href="tel:0667462333"><i class="fa fa-phone"></i> 06.67.46.23.33</a></span>
             </div>
-            <img class='col-4' id="logo" src="asset\img\WordArt.jpg" alt="Vignette">
+            <h1 class="col-4 montitre">Isabelle Buferne</h1>
+            <div class="col-4 column text-center">
+                <span><a href="mailto:isabelle.buferne@laposte.net"><i class="fa fa-envelope "></i> isabu77@gmail.com</a></span>
+                <span>
+                <a href="https://github.com/isabu77">
+                </a>
+            </span>
+            </div>
         </header>
 
         <!-- Présentation : Texte de description -->
-        <div id='description' class='row'>
+        <div id='description'>
             <h2 id='h2desc' class='text-center col-12'>Développeur WEB et C/C++</h2>
             <article id='pdesc' class='text-center col-12'>
                 <h3>Formation 2019</h3>
@@ -36,42 +37,50 @@
                 <p>Développeur logiciel sénior C/C++ sous Windows</p>
                 <p>Je recherche un poste de développeur Web et/ou logiciel</p>
                 <div class="column">
-                    <div class="mb-2">
-                        <a href="https://isabu77.github.io/CV-2019/">Mon CV</a>
+                    <div class="col-12 mb-2">
+                        <a href="https://isabu77.github.io/CV-2019/ ">Mon CV</a>
                     </div>
-                    <iframe class="col-6" src="https://isabu77.github.io/CV-2019/" frameborder="1"></iframe>
+                    <iframe class="col-12 col-md-10 m-auto" src="https://isabu77.github.io/CV-2019/ " frameborder="1 "></iframe>
                 </div>
-                <h3>Mes réalisations Front-End</h3>
-                <div class="column">
-                    <div class="mb-2">
-                        <a href="https://isabu77.github.io/0017_monagesurplanete/">Votre âge sur la planète</a>
-                    </div>
-                    <iframe class="col-6" src="https://isabu77.github.io/0017_monagesurplanete/" frameborder="1"></iframe>
-                    <div class="mb-2">
-                        <a href="https://isabu77.github.io/0020_JeuxPlateau/">Jeux de plateau</a>
-                    </div>
-                    <iframe class="col-6" src="https://isabu77.github.io/0020_JeuxPlateau/" frameborder="1"></iframe>
-                    <div class="mb-2">
-                        <a href="https://isabu77.github.io/0025_BlogIsa/">un Blog</a>
-                    </div>
-                    <iframe class="col-6" src="https://isabu77.github.io/0025_BlogIsa/" frameborder="1"></iframe>
-                    <div class="mb-2">
-                        <a href="https://isabu77.github.io/OpenStreetMap_leafletjs/">Open Street Map</a>
-                    </div>
-                    <iframe class="col-6" src="https://isabu77.github.io/OpenStreetMap_leafletjs/" frameborder="1"></iframe>
+                <h3 class="mb-2 ">Quelques réalisations</h3>
 
+                <div class="row justify-content-space-between mb-2 ">
+                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0017_monagesurplanete/ ">Votre âge sur la planète</a>
+                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0020_JeuxPlateau/ ">Jeux de plateau</a>
                 </div>
+                <div class="row mb-2 justify-content-space-between ">
+                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0017_monagesurplanete/ " frameborder="1 "></iframe>
+                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0020_JeuxPlateau/ " frameborder="1 "></iframe>
+                </div>
+
+                <div class="row justify-content-space-between mb-2 ">
+                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0025_BlogIsa/ ">un Blog</a>
+                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/OpenStreetMap_leafletjs/ ">Open Street Map</a>
+                </div>
+                <div class="row m-auto justify-content-space-between ">
+                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0025_BlogIsa/ " frameborder="1 "></iframe>
+                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/OpenStreetMap_leafletjs/ " frameborder="1 "></iframe>
+                </div>
+
             </article>
         </div>
 
         <!-- Formulaire de CONTACT -->
 
-        <h2 id="titleh2">Pour me contacter</h2>
-        <!-- Titre -->
-        <p id="contact">isabu77@gmail.com - +33 (0)6 67 46 23 33</p>
-        <hr class="separation">
+        <hr class="separation ">
     </section>
     <footer id="foot">
+        <h3 id="titleh2">Pour me contacter</h3>
+        <!-- Titre -->
+        <ul class="column align-items-center m-auto ">
+            <li class="mobiletel "><a href="tel:0667462333 "><i class="fa fa-phone "></i> 06.67.46.23.33</a></li>
+            <li class="mobilemail ">
+                <a href="mailto:isabelle.buferne@laposte.net "><i class="fa fa-envelope "></i> isabu77@gmail.com</a></li>
+            <li>
+                <a href="https://github.com/isabu77 "><img class="mark " src="asset/img/GitHub-Mark-32px.png " alt="mark github ">
+                    <img class="logo " src="asset/img/GitHub_Logo.png " alt="logo github "></a>
+            </li>
+        </ul>
     </footer>
 
 </body>
