@@ -20,6 +20,10 @@ iframe {
     height: 300px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* DESCRIPTION */
 
@@ -32,15 +36,11 @@ iframe {
 /* TITRE DESCRIPTION avec fond clavier et dégradé vert */
 
 #h2desc {
-    border-radius: 5px;
-    background-image: linear-gradient(rgb(186, 233, 179), rgba(255, 255, 0, 0.5)), url("../img/clavier.png");
-    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-    color: white;
+    color: rgba(18, 19, 18, 0.596);
 }
 
 #titleh2 {
-    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-    color: white;
+    color: rgba(18, 19, 18, 0.596);
     text-align: center;
 }
 
@@ -55,8 +55,7 @@ iframe {
     .montitre {
         font-size: 2em;
         margin-bottom: 2px;
-        text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-        color: white;
+        color: rgba(18, 19, 18, 0.596);
         text-align: center;
     }
     /* le LOGO en haut à droite */
@@ -79,8 +78,7 @@ iframe {
     .montitre {
         font-size: 1.5em;
         margin-bottom: 2px;
-        text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em blue;
-        color: white;
+        color: rgba(18, 19, 18, 0.596);
         text-align: center;
     }
     /* le LOGO en haut à droite */
