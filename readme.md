@@ -31,7 +31,4 @@ isabu77@gmail.com - 06 67 46 23 33
 * Pour me contacter
 * adresse mail - tél
 
-## Maquette :
-### Image : 
-![Maquette](https://github.com/isabu77/0005_portfolio/blob/master/asset/img/maquettepetite.jpg)
 
