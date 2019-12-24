@@ -1,37 +1,119 @@
-h1::before {
-    content: "-";
+header {
+    margin-bottom: 20px;
 }
 
-h1::after {
-    content: "-";
+.masection {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
 }
 
-h4::before {
-    content: "-";
+ul {
+    padding-inline-start: 0px;
 }
 
-h4::after {
-    content: "-";
+ul li {
+    list-style: none;
 }
 
-.tel {
-    transition: all .2s ease-in-out;
+iframe {
+    height: 300px;
 }
 
-.tel:hover {
-    transform: scale(1.1);
+a {
     text-decoration: none;
-    font-weight: bold;
 }
 
-.social {
-    transition: all .2s ease-in-out;
+
+/* DESCRIPTION */
+
+#description {
+    margin: 2px;
+    border-radius: 5px;
 }
 
-.social:hover {
-    transform: scale(1.1);
+
+/* TITRE DESCRIPTION avec fond clavier et dégradé vert */
+
+#h2desc {
+    color: rgba(18, 19, 18, 0.596);
 }
 
-img {
-    object-fit: scale-down;
+#titleh2 {
+    color: rgba(18, 19, 18, 0.596);
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+/* desktop */
+
+@media(min-width:641px) {
+    .montitre {
+        font-size: 2em;
+        margin-bottom: 2px;
+        color: rgba(18, 19, 18, 0.596);
+        text-align: center;
+    }
+    /* le LOGO en haut à droite */
+    #logo {
+        width: 50%;
+        border-radius: 100%;
+    }
+    .mark {
+        width: 2vw;
+    }
+    .logo {
+        width: 4vw;
+    }
+}
+
+
+/* mobile */
+
+@media(max-width:640px) {
+    .montitre {
+        font-size: 1.5em;
+        margin-bottom: 2px;
+        color: rgba(18, 19, 18, 0.596);
+        text-align: center;
+    }
+    /* le LOGO en haut à droite */
+    #logo {
+        width: 100%;
+        border-radius: 100%;
+    }
+    .logo {
+        height: 4vw;
+    }
+    .mark {
+        height: 4vw;
+    }
+}
+
+
+/* ARTICLE : DESCRIPTION */
+
+#pdesc {
+    margin: 2px;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+footer {
+    text-align: center;
+    border-radius: 1em;
+}
+
+
+/* ligne de séparation entre titre Pour me contacter et formulaire */
+
+.separation {
+    width: 66%;
+    height: 1px;
+    background-color: #00060F;
+    margin-bottom: 0.5em;
 }
