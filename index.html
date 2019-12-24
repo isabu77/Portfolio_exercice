@@ -1,88 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset='UTF-8' />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel='stylesheet' href='asset/css/style.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS Perso -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <section>
-        <!-- TITRE : Nom prénom et logo sur la meme ligne -->
-        <header class="row justify-content-space-between align-items-center">
-            <div class="col-4 column text-center">
-                <span><a href="tel:0667462333"><i class="fa fa-phone"></i> 06.67.46.23.33</a></span>
+    <header>
+        <div class="d-flex justify-content-around border p-1">
+            <small class="d-flex align-items-center"><img
+                    src="https://img.icons8.com/ios-glyphs/32/000000/phone-message.png" alt="Logo téléphonique"><a
+                    class="tel" href="tel:+3367462333">06.67.46.23.33</a></small>
+            <small class="d-flex align-items-center">
+                <img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png" alt="Logo e-mail"><a
+                    href="mailto:isabu77@gmail.com">isabu77@gmail.com</a>
+            </small>
+        </div>
+    </header>
+    <section class="w-75 m-auto row">
+        <div class="d-flex align-items-center justify-items-around mt-3">
+            <div class="d-flex justify-content-center" id="container-img-one"><img class="img-fluid w-25" src="asset/img/gears.png" alt="Illustration: engrenages"></div>
+            <div class="mb-3">
+                <h1 class="text-center h1 text-primary">Isabelle Buferne</h1>
+                <h2 class="text-center h2">Ingénieur Développement Logiciel et Web </h2>
+                </br>
+                <p class="text-center">Titre Professionnel Développeur Web & Web Mobile Ingénieur Logiciel Sénior C/C++/C#.</p>
+                <p class="text-center">Je recherche un poste de développeur Logiciel et/ou Web</p class="text-center">
             </div>
-            <h1 class="col-4 montitre">Isabelle Buferne</h1>
-            <div class="col-4 column text-center">
-                <span><a href="mailto:isabelle.buferne@laposte.net"><i class="fa fa-envelope "></i> isabu77@gmail.com</a></span>
-                <span>
-                <a href="https://github.com/isabu77">
-                </a>
-            </span>
-            </div>
-        </header>
-
-        <!-- Présentation : Texte de description -->
-        <div id='description'>
-            <h2 id='h2desc' class='text-center col-12'>Ingénieur Développement C/C++ et Web</h2>
-            <article id='pdesc' class='text-center col-12'>
-                <p>Titre Professionnel Développeur Web & Web Mobile</p>
-                <p>Ingénieur Logiciel Sénior C/C++</p>
-                <p>Je recherche un poste de développeur Logiciel et/ou Web</p>
-                <div class="row justify-content-space-between mb-2 ">
-                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/CV-2019/">Mon CV</a>
-                    <a class="col-5 m-auto text-center " href="http://gardenpad.albuweb.com">Un site personnel : Garden Pad</a>
-                </div>
-                <div class="row mb-2 justify-content-space-between ">
-                    <iframe class="col-5 m-auto" src="https://isabu77.github.io/CV-2019" frameborder="1"></iframe>
-                    <a class="col-5 m-auto text-center p-5" href="http://gardenpad.albuweb.com"><img class="w-100" src="asset/img/Gardenpad.JPG"></img>
-                    </a>
-                </div>
-                <h3 class="mb-2 ">Quelques réalisations</h3>
-                <div class="row justify-content-space-between mb-2 ">
-                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0017_monagesurplanete/">Votre âge sur la planète</a>
-                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0020_JeuxPlateau/">Jeux de plateau</a>
-                </div>
-                <div class="row mb-2 justify-content-space-between ">
-                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0017_monagesurplanete/" frameborder="1"></iframe>
-                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0020_JeuxPlateau/" frameborder="1"></iframe>
-                </div>
-
-                <div class="row justify-content-space-between mb-2 ">
-                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/0025_BlogIsa/">un Blog</a>
-                    <a class="col-5 m-auto text-center " href="https://isabu77.github.io/OpenStreetMap_leafletjs/">Open Street Map</a>
-                </div>
-                <div class="row m-auto justify-content-space-between ">
-                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/0025_BlogIsa/" frameborder="1"></iframe>
-                    <iframe class="col-5 m-auto " src="https://isabu77.github.io/OpenStreetMap_leafletjs/" frameborder="1"></iframe>
-                </div>
-
-            </article>
+            <div class="d-flex justify-content-center" id="container-img-two"><img class="img-fluid w-25" src="asset/img/internet.png" alt="Illustration : globe avec une souris"></div>
         </div>
 
-        <!-- Formulaire de CONTACT -->
+        <div class="row d-flex align-items-center">
+            <div class="container col-12 col-md-5">
+                <div class="card m-2">
+                    <img class="img-fluid w-75" src="asset/img/WordArt.jpg" alt="Illustration CV">
+                    <div class="card-body fluid">
+                        <h5 class="card-title">Mon CV</h5>
+                        <p class="card-text">Mon curriculium vitae : mis à jour le 20/12/2019 </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Voir le CV
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Mon CV</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe class="col-12" src="https://isabu77.github.io/CV-2019" height="600px" frameborder="0"></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                        <a class="col-5 m-auto text-center btn btn-primary" href="https://isabu77.github.io/CV-2019/">Afficher en pleine page</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <hr class="separation ">
+            <div class="container col-12 col-md-5">
+                <div class="card m-2">
+                    <img class="img-fluid" src="asset/img/gardenpad.jpg" alt="Illustration de Garden Pad">
+                    <div class="card-body">
+                        <h5 class="card-title">Un site personnel: GardenPad</h5>
+                        <p class="card-text">Site personnel de gestion de récolte</p>
+                        <a href="http://gardenpad.albuweb.com/" class="btn btn-primary">Voir le site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="d-flex align-content-center bg-primary w-75">
+
+        <h2 class="text-center m-3 w-100">Quelques réalisations</h2>
+
+        <div class="row d-flex align-items-center">
+            <div class="container col-12 col-md-5">
+                <div class="card m-2">
+                    <img class="img-fluid p-1" src="asset/img/ageplanets50.jpg" alt="Illustration du site de calcul de l'âge selon la planète">
+                    <div class="card-body">
+                        <h5 class="card-title">Votre âge sur les planètes</h5>
+                        <p class="card-text">Application qui calcule l'âge sur différentes planètes. Ecrit en Javascript.
+                        </p>
+                        <a href="https://isabu77.github.io/0017_monagesurplanete/" class="btn btn-primary">Voir le
+                            site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container col-12 col-md-5">
+                <div class="card m-2">
+                    <img class="img-fluid p-1 m-auto" src="asset/img/puissance4.JPG" alt="Illustration jeux de plateau" width="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeux de plateau</h5>
+                        <p class="card-text">Puissance 4 et Tic Tac Toe en Javascript</p>
+                        <a href="https://isabu77.github.io/0020_JeuxPlateau/" class="btn btn-primary">Voir le site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container col-12 col-md-5 d-flex align-items-center">
+                <div class="card m-2">
+                    <img class="img-fluid p-1 w-75" src="asset/img/blog.png" alt="Illustration du site type blog">
+                    <div class="card-body">
+                        <h5 class="card-title">Un blog</h5>
+                        <p class="card-text">Exemple d'un blog statique</p>
+                        <a href="https://isabu77.github.io/0025_BlogIsa/" class="btn btn-primary">Voir le site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container col-12 col-md-5">
+                <div class="card m-2">
+                    <img class="img-fluid p-3 w-75" src="asset/img/OSMlogo320.png" alt="Illustration de Open Street Map">
+                    <div class="card-body">
+                        <h5 class="card-title">Open Street Map</h5>
+                        <p class="card-text">Emplacement des co-workings de l'Auvergne avec OpenStreetMap-LeafFletJs
+                        </p>
+                        <a href="https://isabu77.github.io/OpenStreetMap_leafletjs/" class="btn btn-primary">Voir le
+                            site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="bg-primary w-75">
     </section>
-    <footer id="foot">
-        <h3 id="titleh2">Pour me contacter</h3>
-        <!-- Titre -->
-        <ul class="column align-items-center m-auto ">
-            <li class="mobiletel "><a href="tel:0667462333 "><i class="fa fa-phone "></i> 06.67.46.23.33</a></li>
-            <li class="mobilemail ">
-                <a href="mailto:isabelle.buferne@laposte.net "><i class="fa fa-envelope "></i> isabu77@gmail.com</a></li>
-            <li>
-                <a href="https://github.com/isabu77 "><img class="mark " src="asset/img/GitHub-Mark-32px.png " alt="mark github ">
-                    <img class="logo " src="asset/img/GitHub_Logo.png " alt="logo github "></a>
-            </li>
-        </ul>
+    <footer class="d-flex flex-column align-items-center">
+        <h4 class="align-center h2">Pour me contacter</h4>
+        <small class="d-flex align-items-center text-primary mb-2"><img
+                src="https://img.icons8.com/ios-glyphs/32/000000/phone-message.png"><a class="tel"
+                href="tel:+3367462333">06.67.46.23.33</a>
+        </small>
+        <small class="d-flex align-items-center text-primary mb-2">
+            <img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"><a
+                href="mailto:isabu77@gmail.com">isabu77@gmail.com</a>
+        </small>
+        <div class="mt-2">
+            <a href="https://www.linkedin.com/in/isabelle-b-07723574/"><img class="social" src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Logo linkedin"></a>
+            <a href="https://github.com/isabu77"><img class="social" src="https://img.icons8.com/color/48/000000/github.png" alt="Logo github"></a>
+        </div>
     </footer>
 
+    <!-- SCRIPS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
